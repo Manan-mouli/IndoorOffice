@@ -1,0 +1,17 @@
+.bg-theme {
+  background-color: #2e8b57; /* theme green from your design */
+}
+
+.sidebar .nav-link {
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.sidebar .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-heading {
+  font-size: 0.85rem;
+  color: #f1f1f1;
+}
