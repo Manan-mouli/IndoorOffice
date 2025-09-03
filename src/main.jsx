@@ -3,12 +3,10 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import "bootstrap/dist/css/bootstrap.css"
 import "bootstrap/dist/js/bootstrap.bundle"
-import Header from './Components/Header'
-import Footer from './Components/Footer'
+import Home from './Pages/Home'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Header/>
-    <Footer/>
+    <Home/>
   </StrictMode>,
 )

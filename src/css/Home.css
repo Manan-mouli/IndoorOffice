@@ -1,0 +1,16 @@
+@media (min-width: 992px) {
+  .txt {
+    margin-left: 40px;
+  }
+}
+.feature-icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  background-color: #008080; /* teal matches header */
+  color: #fff; /* white icon inside */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
