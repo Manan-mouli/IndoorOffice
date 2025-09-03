@@ -1,0 +1,24 @@
+.footer {
+  background-color: #1c1c1c; /* same as body background */
+  color: #f5f5f5;            /* light text for readability */
+  border-top: 2px solid #008080; /* teal accent line */
+  padding: 20px 0;
+}
+
+.footer h5,
+.footer h6 {
+  color: #008080; /* teal headings to match navbar */
+  margin-bottom: 10px;
+}
+
+.footer p,
+.footer .nav-link {
+  color: #f5f5f5;
+  font-size: 0.9rem;
+}
+
+.footer .nav-link:hover {
+  color: #00b3b3; /* lighter teal on hover */
+  text-decoration: underline;
+  transition: 0.3s;
+}
