@@ -28,7 +28,7 @@ export default function Sidebar() {
         </li>
         <li className="nav-item">
           <a className="nav-link text-white" href="#">
-            <FontAwesomeIcon icon={faFileAlt} /> Team
+            <FontAwesomeIcon icon={faFileAlt} /> Teams
           </a>
         </li>
       </ul>

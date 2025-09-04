@@ -21,10 +21,9 @@ function Footer() {
           <Col md={4} className="mb-3">
             <h6>Quick Links</h6>
             <Nav className="flex-column">
-              <Nav.Link href="#home" className="text-light">Home</Nav.Link>
-              <Nav.Link href="#about" className="text-light">About</Nav.Link>
-              <Nav.Link href="#services" className="text-light">Services</Nav.Link>
-              <Nav.Link href="#contact" className="text-light">Contact</Nav.Link>
+              <Nav.Link  className="text-light">Home</Nav.Link>
+              <Nav.Link  className="text-light">Services</Nav.Link>
+              <Nav.Link  className="text-light">Contact</Nav.Link>
             </Nav>
           </Col>
 
