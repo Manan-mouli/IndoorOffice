@@ -8,3 +8,6 @@
 .txt{
     color: white;
 }
+.nav-link:hover .txt {
+  color: black !important;
+}

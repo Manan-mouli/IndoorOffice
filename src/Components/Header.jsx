@@ -13,13 +13,9 @@ function Header() {
         
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto ">
-            <Nav.Link className='txt' href="#home"><h5>Home</h5></Nav.Link>
-            <Nav.Link className='txt' href="#features"><h5>WorkPlace</h5></Nav.Link>
-            <Nav.Link className='txt' href="#pricing"><h5>Home</h5></Nav.Link>
-          </Nav>
           <Nav>
-            <h5><FontAwesomeIcon className='txt' icon={faCalendarDays} /></h5>
+            <Nav.Link ><h3><FontAwesomeIcon className='txt' icon={faCalendarDays} /></h3></Nav.Link>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>
