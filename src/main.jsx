@@ -4,16 +4,58 @@ import './index.css'
 import "bootstrap/dist/css/bootstrap.css"
 import "bootstrap/dist/js/bootstrap.bundle"
 import Home from './Pages/Home'
-
 import Employees from './Pages/Employees'
 import Teams from './Pages/Teams'
 import Signin from './Pages/Signin'
+import Products from './Pages/Products'
 import Toogle from './Toogle'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Recrute from './Pages/Recrute'
+import Issues from './Pages/Issues'
+import Termieted from './Pages/Termieted'
+
+
+let allRoutes = createBrowserRouter(
+  [
+    {
+      path:'/employees',
+      element:<Employees/>
+    },
+    {
+      path:'/recrute',
+      element:<Recrute/>
+    },
+    {
+      path:'/',
+      element:<Home/>
+    },
+    {
+      path:'/toggle',
+      element:<Toogle/>
+    },
+    {
+      path:'/teams',
+      element:<Teams/>
+    },
+    {
+      path:'/products',
+      element: <Products/>
+    },
+    {
+      path:'/issues',
+      element:<Issues/>
+    },
+    {
+      path:'/termineted',
+      element: <Termieted/>
+    }
+  ]
+)
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     
-    <Toogle/>
+    <RouterProvider router={allRoutes}/>
    
   </StrictMode>,
 )

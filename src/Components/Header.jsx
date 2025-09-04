@@ -4,9 +4,11 @@ import Navbar from 'react-bootstrap/Navbar';
 import "../css/Header.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarDays } from '@fortawesome/free-regular-svg-icons'; 
+import { useNavigate } from 'react-router-dom';
 
 
 function Header() {
+  const navigate = useNavigate();
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary bdyclr">
       <Container className='colr'>
@@ -14,7 +16,7 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>
-            <Nav.Link ><h3><FontAwesomeIcon className='txt' icon={faCalendarDays} /></h3></Nav.Link>
+            <Nav.Link onClick={()=>navigate('/toggle')}><h3><FontAwesomeIcon className='txt' icon={faCalendarDays} /></h3></Nav.Link>
             
           </Nav>
         </Navbar.Collapse>

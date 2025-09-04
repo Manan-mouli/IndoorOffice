@@ -22,12 +22,12 @@ export default function Sidebar() {
       <hr />
       <ul className="nav flex-column">
         <li className="nav-item">
-          <a className="nav-link text-white" href="#">
+          <a className="nav-link text-white" href="/employees">
             <FontAwesomeIcon icon={faHouse} /> Employees
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link text-white" href="#">
+          <a className="nav-link text-white" href="/teams">
             <FontAwesomeIcon icon={faFileAlt} /> Teams
           </a>
         </li>
@@ -41,17 +41,17 @@ export default function Sidebar() {
       </h6>
       <ul className="nav flex-column mb-auto">
         <li className="nav-item">
-          <a className="nav-link text-white" href="#">
+          <a className="nav-link text-white" href="/products">
             <FontAwesomeIcon icon={faFileAlt} /> Products
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link text-white" href="#">
+          <a className="nav-link text-white" href="/issues">
             <FontAwesomeIcon icon={faFileAlt} /> Issues
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link text-white" href="#">
+          <a className="nav-link text-white" href="/termineted">
             <FontAwesomeIcon icon={faFileAlt} /> Terminated
           </a>
         </li>

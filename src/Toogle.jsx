@@ -1,8 +1,10 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import img from "./assets/pic2.jpg"
+import { useNavigate } from 'react-router-dom';
 
 export default function Toogle() {
+      const navigate = useNavigate();
   return (
     <Container
       fluid
@@ -24,10 +26,12 @@ export default function Toogle() {
           width="80"
           height="80"
           style={{ border: "3px solid #009688" }}
+          onClick={()=>navigate('/')}
         />
         <button 
           className="btn btn-lg w-100"
           type="submit"
+          onClick={()=>navigate('/employees')}
           style={{ 
             backgroundColor: "#009688", 
             color: "white", 
@@ -42,6 +46,7 @@ export default function Toogle() {
         <button 
           className="btn btn-lg w-100"
           type="submit"
+          onClick={()=>navigate('/recrute')}
           style={{ 
             backgroundColor: "#009688", 
             color: "white", 

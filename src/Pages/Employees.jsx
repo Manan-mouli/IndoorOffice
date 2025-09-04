@@ -4,7 +4,7 @@ import Footer from "../Components/Footer";
 import Sidebar from "../Components/Sidebar";
 import "../css/Admin.css";
 
-export default function Admin() {
+export default function Employees() {
   return (
     <div>
       <Header />
