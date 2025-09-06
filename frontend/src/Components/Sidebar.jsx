@@ -34,10 +34,7 @@ export default function Sidebar() {
       </ul>
 
       <h6 className="sidebar-heading px-3 mt-4 mb-1 text-uppercase">
-        Work reports
-        <a href="#" className="ms-2 text-white">
-          <FontAwesomeIcon icon={faPlusCircle} />
-        </a>
+        Work reports :-
       </h6>
       <ul className="nav flex-column mb-auto">
         <li className="nav-item">
