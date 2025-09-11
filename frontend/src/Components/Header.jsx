@@ -11,16 +11,17 @@ function Header() {
   const navigate = useNavigate();
 
   return (
-    <Navbar collapseOnSelect expand="lg" sticky="top" className="bg-body-tertiary bdyclr">
+    <Navbar collapseOnSelect expand="lg" sticky="top" className="bdyclr">
+
       <Container className='colr'>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>
-            <Nav.Link onClick={() => navigate('/toggle')}>
+            
               {/* Use either image or FontAwesome icon */}
               <Nav.Link onClick={()=>navigate('/toggle')}><h3><FontAwesomeIcon className='txt' icon={faCalendarDays}/></h3></Nav.Link>
               {/* <FontAwesomeIcon icon={faCalendarDays} style={{ fontSize: "32px", marginLeft: "10px" }} /> */}
-            </Nav.Link>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>

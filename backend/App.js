@@ -2,12 +2,14 @@ const express = require("express");
 const connectDB = require("./config/db");
 const employeeRoutes = require("./routes/employeeRoutes");
 const teamRoutes = require("./routes/teamRoutes");
+const cors = require("cors");
 require("dotenv").config();
 
 const app = express();
 
 // Middleware
 app.use(express.json());
+app.use(cors());
 
 // Connect to DB
 connectDB();
