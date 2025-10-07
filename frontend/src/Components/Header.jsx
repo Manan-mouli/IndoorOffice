@@ -5,7 +5,7 @@ import "../css/Header.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarDays } from '@fortawesome/free-regular-svg-icons'; 
 import { useNavigate } from 'react-router-dom';
-import img from "../assets/pic3.jpg";
+
 
 function Header() {
   const navigate = useNavigate();

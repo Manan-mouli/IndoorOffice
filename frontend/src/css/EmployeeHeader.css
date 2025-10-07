@@ -1,0 +1,56 @@
+/* Navbar background matches .bdyclr */
+.employee-navbar {
+  background-color: #1c1c1c !important;
+}
+
+/* Navbar brand */
+.employee-navbar .navbar-brand {
+  color: white !important;
+  font-weight: bold;
+}
+
+/* Nav links */
+.employee-navbar .nav-link {
+  color: white !important; /* .txt */
+  transition: color 0.3s;
+}
+
+.employee-navbar .nav-link:hover {
+  color: black !important; /* hover effect from your .nav-link:hover .txt */
+}
+
+/* Dropdown menu background matches .colr */
+.employee-navbar .dropdown-menu {
+  background-color: #008080 !important; /* teal accent */
+}
+
+/* Dropdown items */
+.employee-navbar .dropdown-item {
+  color: white !important;
+}
+
+.employee-navbar .dropdown-item:hover {
+  color: black !important;
+}
+
+/* Navbar toggler (hamburger) */
+.employee-navbar .navbar-toggler {
+  border-color: white !important;
+}
+
+.employee-navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+/* Optional: active link color */
+.employee-navbar .nav-link.active {
+  color: #008080 !important;
+}
+.logo-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 30px; /* increased from 20px to 30px */
+}

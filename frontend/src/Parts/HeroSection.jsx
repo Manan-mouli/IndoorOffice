@@ -1,5 +1,5 @@
 import React from 'react'
-import im from "../assets/pic1.jpg"
+
 import "../css/Home.css"
 
 export default function HeroSection() {
@@ -10,11 +10,12 @@ export default function HeroSection() {
           {/* Image */}
           <div className="col-10 col-sm-8 col-lg-6">
             <img 
-              src={im} 
-              className="d-block mx-lg-auto img-fluid" 
-              alt="Office Theme" 
-              loading="lazy"
-            />
+  src="/pic1.jpg" 
+  className="d-block mx-lg-auto img-fluid" 
+  alt="test" 
+/>
+
+
           </div>
 
           {/* Text */}
